@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Document Page</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    
+    <div class="container">
+        <nav id="navbar">
+            <header id="header-contents"style="color:white;"><u>Web site Functional Specification</u></header>
+            <ul>
+              <a class="nav-link" href="#Overview"><li>Overview</li></a>
+              <a class="nav-link" href="#Goals_and_Criteria"><li>Goals and Criteria</li></a>
+              <a class="nav-link" href="#Hardware"><li>Hardware</li></a>
+              <a class="nav-link" href="#Operating_System"><li>Operating System</li></a>
+              <a class="nav-link" href="#System_Software"><li>System Software</li></a>
+              <a class="nav-link" href="#Statistical_Data"><li>Statistical Data</li></a>
+              <a class="nav-link" href="#Network"><li>Network</li></a>
+              <a class="nav-link" href="#Navigation"><li>Navigation</li></a>
+              <a class="nav-link" href="#Content"><li>Content</li></a>
+              <a class="nav-link" href="#Themes"><li>Themes</li></a>
+              <a class="nav-link" href="#Logo"><li>Logo</li></a>
+              <a class="nav-link" href="#Site_Management"><li>Site Management</li></a>
+              <a class="nav-link" href="#Definitions"><li>Definitions</li></a>
+            </ul>
+        </nav>
+        <main id="main-doc">
+                <section class="main-section" id="Overview">
+                    <header>Overview</header>
+                    <p>
+                            The following is an attempt to put together a complete, yet reasonably flexible
+                            template for the specification of the Hillsborough Community College Web Site.
+                            Wherever possible, we have tried to provide requirements for the contents of
+                            various sections and subsections of the document.
+                    </p>
+                    <p>
+                            In devising this requirements document, we have gleaned information from many
+                            sources. We have made every effort not to assume or impose a particular
+                            software development methodology or paradigm, and to place more emphasis on
+                            format than on content. Content contained on the web site will be the
+                            responsibility of departmental subject matter experts and their collaboration with
+                            the web design team.
+                    </p>
+                    <p>
+                            It is our desire that a completed requirements document meet the following
+                            criteria:
+                            <ul>
+                                <li>It should be able to adequately serve as training material for new project
+                                        members, imparting to them enough information and understanding about
+                                        the project implementation, so that they are able to understand what is
+                                        being said in design meetings, and won’t feel as if they are drowning when
+                                        they are first asked to create or modify requirements.</li>
+                                        <li>It should serve as “objective evidence” that the designers and/or
+                                                implementers are following through on their commitment to implement the
+                                                functionality described in the requirements specification.</li>
+                                        <li>It needs to be as detailed as possible, while at the same time not imposing
+                                                too much of a burden on the designers and/or implementers that it
+                                                becomes overly difficult to create or maintain.</li>
+                            </ul>
+                    </p>
+                </section>
+                <section class="main-section" id="Goals_and_Criteria">
+                    <header>Goals and Criteria</header>
+                    <p>
+                        <ol>
+                            <li>Provide the specifications for a world-class web site.</li>
+                                <ul>
+                                    <li>Positive feedback from the College and external constituents regarding
+                                        web site design and navigation.</li>
+                                </ul>
+                            <li>Gain support from the College community; including site specifications,
+                                    content management, and approval processes.</li>
+                                    <ul>
+                                        <li>Adoption of the Web Site Functional Specifications Document</li>
+                                    </ul>
+                            <li>Provide adequate funding for the development and support of the web site.</li>
+                                    <ul>
+                                        <li>
+                                                Commitment of resources to support the Web Site Functional
+                                                Specifications Document and deployment and management
+                                                processes.
+                                        </li>
+                                    </ul>
+                            <li>Deploy a centralized web architecture that is easily managed given a set of
+                                    predetermined standards.</li>
+                                    <ul>
+                                        <li>Installation of web site architecture according to specifications.</li>
+                                    </ul>
+                            <li>Develop a web site that focuses on HCC as a college, yet also provides
+                                    campuses with the ability to retain their own identity.</li>
+                                    <ul>
+                                        <li>Positive feedback from campuses regarding design of Tier 3 web
+                                                pages and their relationship to the homepage.</li>
+                                    </ul>
+                            <li>Provide a web environment that is accessible in multiple formats</li>
+                                    <ul>
+                                        <li>Implement a web site that is ADA compliant</li>
+                                        <li>Implement a web site that can accessed by mobile devices</li>
+                                    </ul>
+                        </ol>
+                    </p>
+                    
+                </section>
+                <section class="main-section" id="Hardware">
+                    <header>Hardware</header>
+                    <p>
+                        <ol>
+                            <li>
+                                    Will be capable of running the operating systems outlined in the Operating
+                                    Systems section.
+                            </li>
+                            <li>
+                                    Will be physically located in the OIT data center, or other location in
+                                    concert with disaster recovery plans.
+                            </li>
+                            <li>
+                                    Will be maintained by OIT personnel.
+                            </li>
+                            <li>
+                                    Will be able to support busy hour hits based on statistical data.
+                            </li>
+                            <li>
+                                    Will be implemented in accordance with College Disaster Recovery Plans.
+                            </li>
+                            <li>
+                                    Will include hardware to manage a text lifting/transcoding system for web
+                                    site accessibility.
+                            </li>
+                            <li>
+                                    Will incorporate a load balancer on the front end.
+                            </li>
+                        </ol>
+                    </p>
+                </section>
+                <section class="main-section" id="Operating_System">
+                    <header>Operating System</header>
+                    <p>
+                        <ul>
+                            <li>
+                                    Will be Windows and/or Linux.
+                            </li>
+                            <li>
+                                    Must be capable of interfacing with SAN.
+                            </li>
+                            <li>
+                                    Must be capable of interfacing with legacy systems such as Datatel, etc.
+                            </li>
+                            <li>Must be able to synchronize the static web pages to LINUX machine.</li>
+                            <li>Will be maintained by OIT.</li>
+                        </ul>
+                    </p>
+                    
+                </section>
+                <section class="main-section" id="System_Software">
+                    <header>System Software</header>
+                    <p>
+                        <ol>
+                            <li>Content Management System (CMS)</li>
+                            <li>Database serving CMS</li>
+                            <li>Database serving dynamic web pages</li>
+                            <li>Web Statistics/Analysis program(s)</li>
+                            <li>Text lifting/transcoding program</li>
+                        </ol>
+                    </p>
+                </section>
+                <section class="main-section" id="Statistical_Data">
+                    <header>Statistical Data</header>
+                        <p>
+                            <ol>
+                                <li>Will be taken at least quarterly by/or given to OIT.</li>
+                                <li>At least 2 measurements per year will be taken during school registration
+                                        (one in each the fall and spring terms).</li>
+                                <li>Statistics will include a variety of areas including:</li>
+                                    <ul>
+                                        <li>Peak usage times and rates</li>
+                                        <li>Homepage and Tier 1 through 3 hits</li>
+                                        <li>Broken links</li>
+                                        <li>Out of date content (content pages not updated in a year or more)</li>
+                                        <li>Browser and Operating systems</li>
+                                    </ul>
+                                <li>Will be on file for review for a minimum of 2 years.</li>
+                            </ol>
+                        </p>
+                </section>
+                <section class="main-section" id="Network">
+                    <header>Network</header>
+                    <p>
+                        <ol>
+                            <li>Will be maintained by OIT personnel.</li>
+                            <li> Will be scalable.</li>
+                            <li>Will be able to support busy hour hits based on statistical data.</li>
+                            <li>Will be compliant with College Disaster Recovery Plans.</li>
+                            <li> Will integrate with other College servers hosting web content.</li>
+                        </ol>
+                    </p>
+                </section>
+                <section class="main-section" id="Navigation">
+                    <header>Navigation</header>
+                    <p>
+                        <ol>
+                                <li>Web pages will be able to load completely within 10 seconds on a 56k
+                                dial-up connection.</li>
+                                <li>The user will drill down a maximum of 3 screens from either the home
+                                page or a tier 3 page.</li>
+                                <li> Clicking the logo on subordinate pages will navigate back to the home
+                                page.</li>
+                                <li>Forward and Back buttons will be compliant with selected web browser
+                                (Internet Explorer, Mozilla Firefox, Netscape, etc…)</li>
+                                <li>Navigation bars will appear at the top and/or left side of each page.</li>
+                                <li> Links will be available to HawkNet and legacy systems as appropriate.</li>
+                                <li>The site will include “bread crumbs” on tier 1 and 2 pages.</li>
+                                <li> No scrolling will be needed on the home page.</li>
+                                <li>The home page will have a link to tier 3 pages</li>
+                                <li> Resource Links will use web technologies to display associated tier 1 or 2
+                                page links.</li>
+                                <li>A footer will be displayed on the homepage and all tier 1 through 3 pages;
+                                        the footer will include:</li>
+                                        <ul>
+                                                <li>Copyright information</li>
+                                                <li>Form page to submit comments about the web site – routed to
+                                                Web Services Manager</li>
+                                                <li>Link to College contact information</li>
+                                                <li> Privacy policy</li>
+                                        </ul>
+                        </ol>
+                        <code>
+                                &lt;footer&gt;&#10;&amp;copy; All Rights Reserved&#10;&lt;/footer&gt;
+                        </code>
+                        <br>
+                        <code>
+                                &lt;nav id=&#34;navbar&#34;&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;Home&lt;/li&gt;&#10;&lt;li&gt;About&lt;/li&gt;&#10;&lt;li&gt;Contact&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;/nav&gt;
+                        </code>
+                    </p>
+                </section>
+                <section class="main-section" id="Content">
+                    <header>Content</header>
+                    <p>
+                        <ol>
+                            <li>Each page will display the Hillsborough Community College logo.</li>
+                            <li>The masthead will contain links to non-academic resources.</li>
+                                <ul>
+                                    <li>Text only version</li>
+                                    <li>Employment</li>
+                                    <li>Contact information</li>
+                                    <li>Search Function</li>
+                                    <li>Home</li>
+                                </ul>
+                            <li>A common masthead will be used for tier 1 and 2 pages.</li>
+                            <li>Web site will include a site map and/or index.</li>
+                            <li>Web site will be able to display a text only version of content.</li>
+                        </ol>
+                    </p>
+                    <code>
+                            &lt;section&gt;&#10;&lt;p&gt;&#10;This is the main section&#10;&lt;/p&gt;&#10;&lt;/section&gt;
+                    </code>
+                </section>
+                <section class="main-section" id="Themes">
+                    <header>Themes</header>
+                    <p>
+                        <ol>
+                                <li>Each official College page will display the school colors (using the
+                                standard hexadecimal coding).</li>
+                                <li>Consistent font style for content.</li>
+                                <li>Consistent paragraph and numbering scheme</li>
+                        </ol>
+                    </p>
+                </section>
+                <section class="main-section" id="Logo">
+                    <header>Logo</header>
+                    <p>
+                            <li>The college logo will appear at the top of each official College page.</li>
+                            <li>The college logo will be transportable.</li>
+                            <li>The college logo will be in a format that allows smooth resizing.</li>
+                            <li>No other logos beyond officially supported or integrated programs will
+                            appear on the web site (e.g. WebAdvisor, Campus Cruiser, WebCT,
+                            Microsoft, etc.) without approval from the Executive Director of Marketing.</li>
+                    </p>
+                    <code>
+                            &lt;img id=&#34;logo&#34; scr=&#34;https://www.google.com/pic/pic.png&#34; alt=&#34;logo&#34;&gt;
+                    </code>
+                </section>
+                <section class="main-section" id="Site_Management">
+                    <header>Site Management</header>
+                    <p>
+                        <ol>
+                            <li>The homepage will be managed by Web Services through collaboration
+                                    with the V.P. of Information Technology and the Executive Director of
+                                    Marketing.</li>
+                            <li>Tier 1, 2 and 3 pages will be managed by Web Services through
+                                    collaboration with a liaison from each Tier 1 unit and Tier 3 location.</li>
+                            <li>Tier 4 and 5 pages will be managed by the site owners within the CMS.</li>
+                        </ol>
+                    </p>
+                    <code>
+                        body{<br>
+                            color:black;<br>
+                            background-color:white;<br>
+                        }
+                    </code>
+                </section>
+                <section class="main-section" id="Definitions">
+                    <header>Definitions</header>
+                    <p>
+                        <table>
+                                <tr>
+                                    <th>Term</th>
+                                    <th>Meaning</th>
+                                </tr>
+                            <tr>
+                                <td>CMS</td>
+                                <td>Content Management System; e.g Novus</td>
+                            </tr>
+                            <tr>
+                                <td>Content pages</td>
+                                <td>Pages linked from departmental specific pages; e.g.
+                                        Student Services, Human Resources, Athletics, etc.</td>
+                            </tr>
+                            <tr>
+                                <td>Homepage</td>
+                                <td>A single web page designated as www.hccfl.edu</td>
+                            </tr>
+                        </table>
+                    </p>
+                </section>
+        </main>
+</div>
+
+</body>
+</html>

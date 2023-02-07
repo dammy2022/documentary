@@ -1,0 +1,231 @@
+html,body{
+    min-width:290px;
+      color:black;
+      background-color: #005B9A;
+      font-family: 'Open Sans',Arial,sans-serif;
+      line-height: 1.5;
+  }
+  .container{
+      display:flex;
+      flex-direction: row;
+  }
+  #navbar{
+      position:fixed;
+      top:0;
+      left:0;
+      background: teal;
+      padding:10px;
+      margin:0 auto;
+      border-radius: 10px;
+  }
+  #main-doc{
+     position: absolute;
+     top:0;
+     left:140px;
+     width:auto;
+      background:#74C2E1;
+      margin-left: 200px;
+      padding:10px;
+      margin-top: 0;
+      padding:40px;
+  }
+  nav ul{
+      height:500px;
+      overflow-y: auto;
+      line-height: 20px;
+
+  }
+  nav ul li{
+    border:1px solid;
+    padding:15px;
+    list-style-type: none;
+    color:teal;
+    color:white;
+  }
+  #navbar a{
+      color:whitesmoke;
+      text-decoration: none;
+      display:block;
+      padding:10px;
+      text-align: center;
+}
+#header-contents,header{
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav a:hover{
+    background-color:#74C2E1;
+    color:teal;
+}
+table,th,td{
+    border:1px solid black;
+}
+code{
+    display:block;
+    text-align: left;
+  white-space: pre;
+  position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color:#f7f7f7;
+  padding:15px;
+  margin:10px;
+    border-radius:5px;
+}
+@media screen and (max-width: 400px) {
+    .container{
+          display:flex;
+          flex-direction: row;
+      }
+      #navbar{
+          position:fixed;
+          top:0;
+          left:0;
+          background: teal;
+          padding:10px;
+          margin:0 auto;
+          border-radius: 10px;
+      }
+      #main-doc{
+         position: absolute;
+         top:0;
+         left:140px;
+         width:auto;
+          background:#74C2E1;
+          margin-left: 200px;
+          padding:10px;
+          margin-top: 0;
+          padding:40px;
+      }
+      nav ul{
+          height:500px;
+          overflow-y: auto;
+          line-height: 20px;
+    
+      }
+      nav ul li{
+        border:1px solid;
+        padding:15px;
+        list-style-type: none;
+        color:teal;
+        color:white;
+      }
+      #navbar a{
+          color:whitesmoke;
+          text-decoration: none;
+          display:block;
+          padding:10px;
+          text-align: center;
+    }
+    #header-contents,header{
+        color:black;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 720px) {
+    .container{
+          display:flex;
+          flex-direction: row;
+      }
+      #navbar{
+          position:fixed;
+          top:0;
+          left:0;
+          background: teal;
+          padding:10px;
+          margin:0 auto;
+          border-radius: 10px;
+      }
+      #main-doc{
+         position: absolute;
+         top:0;
+         left:140px;
+         width:auto;
+          background:#74C2E1;
+          margin-left: 200px;
+          padding:10px;
+          margin-top: 0;
+          padding:40px;
+      }
+      nav ul{
+          height:500px;
+          overflow-y: auto;
+          line-height: 20px;
+    
+      }
+      nav ul li{
+        border:1px solid;
+        padding:15px;
+        list-style-type: none;
+        color:teal;
+        color:white;
+      }
+      #navbar a{
+          color:whitesmoke;
+          text-decoration: none;
+          display:block;
+          padding:10px;
+          text-align: center;
+    }
+    #header-contents,header{
+        color:black;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 721px) {
+    .container{
+          display:flex;
+          flex-direction: row;
+      }
+      #navbar{
+          position:fixed;
+          top:0;
+          left:0;
+          background: teal;
+          padding:10px;
+          margin:0 auto;
+          border-radius: 10px;
+      }
+      #main-doc{
+         position: absolute;
+         top:0;
+         left:140px;
+         width:auto;
+          background:#74C2E1;
+          margin-left: 200px;
+          padding:10px;
+          margin-top: 0;
+          padding:40px;
+      }
+      nav ul{
+          height:500px;
+          overflow-y: auto;
+          line-height: 20px;
+    
+      }
+      nav ul li{
+        border:1px solid;
+        padding:15px;
+        list-style-type: none;
+        color:teal;
+        color:white;
+      }
+      #navbar a{
+          color:whitesmoke;
+          text-decoration: none;
+          display:block;
+          padding:10px;
+          text-align: center;
+    }
+    #header-contents,header{
+        color:black;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
